@@ -1,0 +1,436 @@
+@media (max-width: 800px) {
+  .site-header {
+    height: 72px;
+  }
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+  .main-nav {
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    padding: 18px 24px 24px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background: white;
+    border-bottom: 1px solid #edf0f2;
+    box-shadow: 0 12px 20px #1b344012;
+  }
+  .main-nav.is-open {
+    display: flex;
+  }
+  .main-nav a {
+    padding: 11px 0;
+  }
+  .hero {
+    padding: 75px 0 105px;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .hero-copy {
+    max-width: 650px;
+  }
+  .hero-art {
+    height: 300px;
+  }
+  .intro-grid {
+    gap: 38px;
+  }
+  .process-grid {
+    gap: 45px;
+  }
+  .footer-grid {
+    gap: 35px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: min(100% - 36px, 520px);
+  }
+  .section {
+    padding: 72px 0;
+  }
+  .hero {
+    padding: 60px 0 85px;
+  }
+  h1 {
+    font-size: 54px;
+  }
+  .lead {
+    font-size: 16px;
+  }
+  .hero-actions {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .hero-art {
+    height: 265px;
+    transform: scale(0.88);
+    transform-origin: top center;
+    margin-bottom: -25px;
+  }
+  .intro-grid,
+  .process-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  .photo-card,
+  .photo-placeholder {
+    min-height: 250px;
+  }
+  .intro-copy h2,
+  .process h2 {
+    font-size: 39px;
+  }
+  .services {
+    padding: 100px 0 85px;
+  }
+  .section-heading {
+    margin-bottom: 32px;
+  }
+  .service-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .service-card {
+    padding: 28px 24px;
+  }
+  .process-grid {
+    gap: 20px;
+  }
+  .cta-wrap {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .cta-wrap h2 {
+    font-size: 30px;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding-top: 48px;
+    padding-bottom: 35px;
+  }
+  .footer-bottom .container {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* ------------------------------------------- Cenik */
+
+/* max-width: 800px */
+
+@media (max-width: 800px) {
+  .price-table-header,
+  .price-row {
+    grid-template-columns: minmax(0, 1fr) 75px 110px;
+    gap: 12px;
+    padding: 17px;
+  }
+
+  .combined-therapy {
+    grid-template-columns: 55px minmax(0, 1fr);
+  }
+
+  .combined-price {
+    grid-column: 2;
+    text-align: left;
+  }
+}
+
+/* max-width: 600px */
+
+@media (max-width: 600px) {
+  .pricing-hero {
+    padding: 60px 0 95px;
+  }
+
+  .pricing-hero h1 {
+    font-size: 43px;
+  }
+
+  .pricing-section {
+    padding: 60px 0;
+  }
+
+  .pricing-heading {
+    margin-bottom: 30px;
+  }
+
+  .price-table-header {
+    display: none;
+  }
+
+  .price-row {
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .price-row > div {
+    grid-column: 1 / -1;
+  }
+
+  .price-row h3 {
+    font-size: 16px;
+  }
+
+  .price-duration {
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .price-value {
+    font-size: 18px;
+  }
+
+  .combined-therapy {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 25px;
+  }
+
+  .combined-price {
+    grid-column: auto;
+    text-align: left;
+  }
+
+  .combined-content h2 {
+    font-size: 23px;
+  }
+
+  .group-therapy-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .group-description {
+    padding: 22px;
+  }
+
+  .group-highlights {
+    flex-direction: column;
+  }
+
+  .pricing-included-inner {
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .included-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 23px;
+  }
+
+  .pricing-included h2 {
+    font-size: 23px;
+  }
+
+  .pricing-bottom {
+    padding: 60px 0;
+  }
+}
+
+/* ------------------------------------------- Kontakt */
+/* max-width: 800px */
+
+@media (max-width: 800px) {
+  .contact-hero {
+    padding: 70px 0;
+  }
+
+  .location-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .location-info {
+    padding: 32px;
+  }
+
+  .location-map,
+  .location-map iframe {
+    min-height: 350px;
+  }
+
+  .contact-team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .contact-person:last-child {
+    grid-column: 1 / -1;
+    width: calc(50% - 10px);
+    justify-self: center;
+  }
+
+  .contact-person-photo {
+    height: 260px;
+  }
+}
+
+/* max-width: 600px */
+
+@media (max-width: 600px) {
+  .contact-hero {
+    padding: 60px 20px;
+  }
+
+  .contact-hero h1 {
+    font-size: 2.4rem;
+  }
+
+  .contact-hero p {
+    font-size: 0.95rem;
+  }
+
+  .location-grid {
+    margin-top: 30px;
+  }
+
+  .location-info {
+    padding: 26px 22px;
+  }
+
+  .location-map,
+  .location-map iframe {
+    min-height: 280px;
+  }
+
+  .contact-team-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .contact-person:last-child {
+    grid-column: auto;
+    width: 100%;
+  }
+
+  .contact-person-photo {
+    height: 300px;
+  }
+
+  .contact-person-content {
+    padding: 25px 22px 28px;
+  }
+}
+
+/* ========================================
+   TABLETY – DO 800 PX
+======================================== */
+
+@media (max-width: 800px) {
+  .therapists-hero {
+    padding: 70px 20px;
+  }
+
+  .therapist-profile {
+    grid-template-columns: 0.7fr 1.3fr;
+    gap: 30px;
+    margin-top: 60px;
+    padding-bottom: 55px;
+  }
+
+  .therapist-photo {
+    height: 400px;
+  }
+
+  .therapist-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .therapist-info:last-child {
+    grid-column: auto;
+  }
+
+  .therapist-info {
+    padding: 17px;
+  }
+}
+
+/* ========================================
+   MOBILY – DO 600 PX
+======================================== */
+
+@media (max-width: 600px) {
+  .therapists-hero {
+    padding: 60px 20px;
+  }
+
+  .therapists-hero h1 {
+    font-size: 2.4rem;
+  }
+
+  .therapists-hero p {
+    font-size: 0.95rem;
+  }
+
+  .therapist-profile {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-top: 50px;
+    padding-bottom: 45px;
+  }
+
+  .therapist-reverse .therapist-photo,
+  .therapist-reverse .therapist-content {
+    order: initial;
+  }
+
+  .therapist-photo {
+    height: 370px;
+    max-width: 100%;
+  }
+
+  .therapist-content {
+    padding: 0;
+  }
+
+  .therapist-content h2 {
+    font-size: 1.9rem;
+  }
+
+  .therapist-intro {
+    font-size: 0.98rem;
+  }
+
+  .therapist-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .therapist-info:last-child {
+    grid-column: auto;
+  }
+
+  .therapist-info {
+    padding: 20px;
+  }
+
+  .therapist-contact {
+    padding: 15px;
+  }
+
+  .therapists-bottom {
+    padding: 65px 20px;
+  }
+}
