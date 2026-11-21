@@ -1,36 +1,50 @@
 <!doctype html>
+
 <html lang="cs">
   <head>
     <meta charset="utf-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <meta
       name="description"
       content="Logopedie v Pardubicích - individuální péče o děti i dospělé, hravě a s respektem."
     />
+
     <meta name="theme-color" content="#35bde3" />
-    <title>Logopedie & Ergoterapie Pardubice</title>
+
+    <title>O nás - Centrum klinické logopedie & ergoterapie Pardubice</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Oswald:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
+
     <link rel="stylesheet" href="styles.css" />
+
     <link rel="stylesheet" href="responsive.css" />
+
+    <link rel="icon" type="img" href="images/logo.svg" />
   </head>
+
   <body>
     <header class="site-header">
       <div class="container nav-wrap">
         <a
           class="brand"
-          href="#domu"
+          href="index.html"
           aria-label="Centrum klinické logopedie a ergoterapie"
         >
-          <!-- <span class="brand-mark" aria-hidden="true">☺</span> -->
+          <img src="images/logo.svg" alt="Logo" class="brand-logo" />
           <span class="brand-name"
             >CENTRUM KLINICKÉ LOGOPEDIE A ERGOTERAPIE<small
               >PARDUBICE</small
@@ -48,36 +62,24 @@
         <nav class="main-nav" id="main-nav" aria-label="Hlavní navigace">
           <a href="index.html">Úvod</a>
           <a class="active" href="o-nas.html">O nás</a>
-          <a href="#sluzby">S čím pomáháme</a>
+          <a href="logopedie-ergoterapie.html">S čím pomáháme</a>
           <a href="cenik.html">Ceník</a>
           <a href="kontakt.html">Kontakt</a>
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            aria-label="Instagram"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-
-          <a
-            href="https://www.facebook.com/"
-            target="_blank"
-            aria-label="Facebook"
-          >
-            <i class="fa-brands fa-facebook"></i>
-          </a>
+          <a href="objednani.html" class="nav-booking"> Objednat se </a>
         </nav>
       </div>
     </header>
 
     <main>
       <!-- ÚVODNÍ SEKCE -->
+
       <section class="therapists-hero">
         <div class="container therapists-hero-inner">
           <span class="eyebrow">NÁŠ TÝM</span>
 
           <h1>
             Poznejte naše<br />
+
             <span>terapeutky.</span>
           </h1>
 
@@ -90,175 +92,266 @@
       </section>
 
       <!-- PŘEDSTAVENÍ TERAPEUTEK -->
+
       <section class="therapists-section section">
         <div class="container">
           <div class="about-heading">
             <span class="eyebrow">NAŠE TERAPEUTKY</span>
           </div>
 
-          <!-- TERAPEUTKA 1 -->
-          <article class="therapist-profile">
+          <article class="therapist-profile" id="terapeutka-1">
             <div class="therapist-photo">
-              <img src="" alt="Portrét terapeutky" />
+              <img
+                src="images/terapeutka-1.jpg"
+                alt="Portrét – Mgr. et Mgr. Monika Šandová"
+                loading="lazy"
+              />
             </div>
-
             <div class="therapist-content">
-              <span class="therapist-specialization"> LOGOPEDIE </span>
-
-              <h2>Monika</h2>
-
-              <p class="therapist-intro">
-                Krátké osobní představení terapeutky. Co ji na práci baví, jaký
-                přístup preferuje a co je pro ni při terapii důležité.
-              </p>
-
+              <span class="therapist-specialization">LOGOPEDIE</span>
+              <h2>Mgr. et Mgr. Monika Šandová</h2>
+              <p class="therapist-intro">Klinická logopedka</p>
               <div class="therapist-info-grid">
                 <div class="therapist-info">
                   <h3>Vzdělání</h3>
                   <ul>
-                    <li>Název vysoké školy a oboru</li>
-                    <li>Rok absolvování studia</li>
-                    <li>Další odborné vzdělání</li>
+                    <li>
+                      Pedagogická fakulta ZČU, magisterské studium, obor
+                      učitelství pro 2. stupeň ZŠ
+                    </li>
+                    <li>
+                      Pedagogická fakulta MU , magisterské studium speciální
+                      pedagogiky obor logopedie a surdopedie
+                    </li>
+                    <li>
+                      IPVZ – specializační vzdělávání v oboru klinická logopedie
+                      – atestační zkouška v oboru klinická logopedie
+                    </li>
                   </ul>
                 </div>
-
                 <div class="therapist-info">
-                  <h3>Kurzy a školení</h3>
+                  <h3>Praxe</h3>
                   <ul>
-                    <li>Název absolvovaného kurzu</li>
-                    <li>Název odborného semináře</li>
-                    <li>Specializované vzdělávání</li>
+                    <li>Základní škola a Praktická škola Svítání Pardubice</li>
+                    <li>Centrum logopedie, s.r.o. Pardubice</li>
+                    <li>
+                      Integrační školka a rehabilitační centrum Lentilka
+                      Pardubice
+                    </li>
                   </ul>
                 </div>
-
                 <div class="therapist-info">
-                  <h3>Pracovní zkušenosti</h3>
+                  <h3>Kurzy a konference</h3>
                   <ul>
-                    <li>Název pracoviště a období</li>
-                    <li>Odborné zaměření</li>
-                    <li>Další profesní zkušenosti</li>
+                    <li>Získané dysartrie</li>
+                    <li>Afaziologie – základy klinické afaziologie</li>
+                    <li>Afaziologie – kognitivně-neuropsychologický přístup</li>
+                    <li>Balbuties A</li>
+                    <li>Balbuties B</li>
+                    <li>Vývojová dysfázie</li>
+                    <li>Dyslálie</li>
+                    <li>Klinická neurologie pro klinické logopedy</li>
+                    <li>Vady a poruchy sluchu</li>
+                    <li>Hlas</li>
+                    <li>Testy v klinické logopedii</li>
+                    <li>Primární progresivní afázie</li>
+                    <li>ADHD a mentální retardace</li>
                   </ul>
                 </div>
-              </div>
-
-              <div class="therapist-contact">
-                <span class="contact-small-icon">✉️</span>
-                <div>
-                  <strong>Kontakt</strong>
-                  <a href="mailto"> jmeno@ </a>
+                <div class="therapist-info">
+                  <h3>Certifikované kurzy</h3>
+                  <ul>
+                    <li>Terapie orální pozice v klinické logopedii</li>
+                    <li>Základní kurz bazální stimulace</li>
+                    <li>Nástavbový kurz bazální stimulace</li>
+                  </ul>
+                </div>
+                <div class="therapist-info">
+                  <h3>Konference a sympozia</h3>
+                  <ul>
+                    <li>Rozštěpové vady a syndromy</li>
+                    <li>Sluch</li>
+                    <li>Nové trendy v mezioborové péči o děti s autismem</li>
+                    <li>Porucha autistického spektra</li>
+                  </ul>
+                </div>
+                <div class="therapist-info">
+                  <h3>Členství v odborných asociacích</h3>
+                  <ul>
+                    <li>Asociace klinických logopedů ČR</li>
+                  </ul>
                 </div>
               </div>
             </div>
           </article>
 
-          <!-- TERAPEUTKA 2 -->
-          <article class="therapist-profile therapist-reverse">
+          <article
+            class="therapist-profile therapist-reverse"
+            id="terapeutka-2"
+          >
             <div class="therapist-photo">
-              <img src="" alt="Portrét logopedky" />
+              <img
+                src="images/terapeutka-2.jpg"
+                alt="Portrét – Mgr. Lenka Trávníčková"
+                loading="lazy"
+              />
             </div>
-
             <div class="therapist-content">
-              <span class="therapist-specialization"> LOGOPEDIE </span>
-
-              <h2>Lenka</h2>
-
-              <p class="therapist-intro">
-                Krátké osobní představení terapeutky. Přibližte její profesní
-                zaměření, zkušenosti a přístup ke klientům.
-              </p>
-
+              <span class="therapist-specialization">LOGOPEDIE</span>
+              <h2>Mgr. Lenka Trávníčková</h2>
+              <p class="therapist-intro">Klinická logopedka</p>
               <div class="therapist-info-grid">
                 <div class="therapist-info">
                   <h3>Vzdělání</h3>
                   <ul>
-                    <li>Název vysoké školy a oboru</li>
-                    <li>Rok absolvování studia</li>
-                    <li>Další odborné vzdělání</li>
+                    <li>
+                      Univerzita Palackého v Olomouci, Pedagogická fakulta,
+                      magisterské studium – jednooborová logopedie
+                    </li>
+                    <li>
+                      IPVZ – specializační vzdělávání v oboru klinická logopedie
+                      – atestační zkouška v oboru klinická logopedie
+                    </li>
                   </ul>
                 </div>
-
                 <div class="therapist-info">
-                  <h3>Kurzy a školení</h3>
+                  <h3>Praxe</h3>
                   <ul>
-                    <li>Název absolvovaného kurzu</li>
-                    <li>Název odborného semináře</li>
-                    <li>Specializované vzdělávání</li>
+                    <li>Ambulance klinické logopedie, Litomyšl</li>
+                    <li>
+                      Integrační školka a rehabilitační centrum Lentilka,
+                      Pardubice
+                    </li>
                   </ul>
                 </div>
-
                 <div class="therapist-info">
-                  <h3>Pracovní zkušenosti</h3>
+                  <h3>Kurzy a konference</h3>
                   <ul>
-                    <li>Název pracoviště a období</li>
-                    <li>Odborné zaměření</li>
-                    <li>Další profesní zkušenosti</li>
+                    <li>Neurologie v klinické logopedii</li>
+                    <li>Afaziologie – základy klinické afaziologie</li>
+                    <li>
+                      Afaziologie – kognitivně – neuropsychologický přístup
+                    </li>
+                    <li>Balbuties A</li>
+                    <li>Balbuties B</li>
+                    <li>Základní symptomatologie a včasný záchyt PAS</li>
+                    <li>Náročné chování osob s PAS</li>
+                    <li>Testy v klinické logopedii</li>
+                    <li>Vady a poruchu sluchu</li>
+                    <li>Hlas</li>
+                    <li>Dítě s vadou sluchu</li>
+                    <li>Strukturální patologie orofaciální oblasti</li>
+                    <li>Vývojová dysfázie</li>
+                    <li>Získané dysartrie</li>
+                    <li>Neurogenní poruchy řeči a hlasu</li>
+                    <li>Vývoj artikulace dítěte v normě i patologii</li>
                   </ul>
                 </div>
-              </div>
-
-              <div class="therapist-contact">
-                <span class="contact-small-icon">✉️</span>
-                <div>
-                  <strong>Kontakt</strong>
-                  <a href="mailto"> jmeno@ </a>
+                <div class="therapist-info">
+                  <h3>Certifikované kurzy</h3>
+                  <ul>
+                    <li>Základní kurz bazální stimulace</li>
+                    <li>HANDLE (I. Stupeň)</li>
+                  </ul>
+                </div>
+                <div class="therapist-info">
+                  <h3>Konference a sympozia</h3>
+                  <ul>
+                    <li>Rozštěpové vady a syndromy</li>
+                    <li>Such</li>
+                  </ul>
+                </div>
+                <div class="therapist-info">
+                  <h3>Členství v odborných asociacích</h3>
+                  <ul>
+                    <li>Asociace klinických logopedů ČR</li>
+                  </ul>
                 </div>
               </div>
             </div>
           </article>
 
-          <!-- TERAPEUTKA 3 -->
-          <article class="therapist-profile">
+          <article class="therapist-profile" id="terapeutka-3">
             <div class="therapist-photo">
-              <img src="" alt="Portrét ergoterapeutky" />
+              <img
+                src="images/terapeutka-3.jpg"
+                alt="Portrét – Bc. Markéta Nývltová"
+                loading="lazy"
+              />
             </div>
-
             <div class="therapist-content">
-              <span class="therapist-specialization therapist-ergo">
-                ERGOTERAPIE
-              </span>
-
-              <h2>Markéta</h2>
-
-              <p class="therapist-intro">
-                Krátké osobní představení ergoterapeutky. Přibližte její přístup
-                k rozvoji schopností, samostatnosti a každodenních dovedností
-                klientů.
-              </p>
-
+              <span class="therapist-specialization therapist-ergo"
+                >ERGOTERAPIE</span
+              >
+              <h2>Bc. Markéta Nývltová</h2>
+              <p class="therapist-intro">Ergoterapeutka</p>
               <div class="therapist-info-grid">
                 <div class="therapist-info">
                   <h3>Vzdělání</h3>
                   <ul>
-                    <li>Název vysoké školy a oboru</li>
-                    <li>Rok absolvování studia</li>
-                    <li>Další odborné vzdělání</li>
+                    <li>
+                      1. lékařská fakulta UK, bakalářské studium, obor:
+                      ergoterapie
+                    </li>
                   </ul>
                 </div>
-
                 <div class="therapist-info">
-                  <h3>Kurzy a školení</h3>
+                  <h3>Praxe</h3>
                   <ul>
-                    <li>Název absolvovaného kurzu</li>
-                    <li>Název odborného semináře</li>
-                    <li>Specializované vzdělávání</li>
+                    <li>Armandi Therapy Clinic Hradec Králové</li>
+                    <li>Integrační centrum Lentilka Pardubice</li>
+                    <li>
+                      Dětský denní rehabilitační stacionář v Hradci Králové
+                    </li>
+                    <li>MŠ,ZŠ a SŠ Daneta Hradec Králové</li>
                   </ul>
                 </div>
-
                 <div class="therapist-info">
-                  <h3>Pracovní zkušenosti</h3>
+                  <h3>Kurzy a workshopy</h3>
                   <ul>
-                    <li>Název pracoviště a období</li>
-                    <li>Odborné zaměření</li>
-                    <li>Další profesní zkušenosti</li>
+                    <li>Ayres Sensory Integration (CLASI)</li>
+                    <li>
+                      Bazální stimulace (kurz základní, nástavbový,
+                      prohlubující)
+                    </li>
+                    <li>
+                      Bobath koncept: vyšetření a léčba dospělých s
+                      neurologickým onemocněným
+                    </li>
+                    <li>HANDLE (I.stupeň)</li>
+                    <li>Hra jako terapie (fyziobeskyd)</li>
+                    <li>Kinesiotaping</li>
+                    <li>
+                      Neurovývojová stimulace I. - „Pohybem se učíme“
+                      (M.Volemanová)
+                    </li>
+                    <li>3D funkce ruky</li>
+                    <li>Odborný seminář Terapie ruky</li>
+                    <li>Odborný seminář Poruchy příjmu potravy u dětí</li>
+                    <li>
+                      Snoezelen v teorii a praxi – základní pojetí
+                      interaktivního multismyslového konceptu
+                    </li>
+                    <li>
+                      Snoezelen v praxi – rozšiřující pojetí interaktivního
+                      multismyslového konceptu
+                    </li>
+                    <li>
+                      Školící a výcvikový kurz MABC-2 Test motoriky pro děti
+                    </li>
+                    <li>Zrakový a vestibulární systém (Fotini Zogfrau)</li>
+                    <li>Workshop: Princip třetí ruky v sytému Redcord</li>
+                    <li>
+                      Webinář: Grafomotorika prakticky (Active brain s.r.o.)
+                    </li>
                   </ul>
                 </div>
-              </div>
-
-              <div class="therapist-contact">
-                <span class="contact-small-icon">✉️</span>
-                <div>
-                  <strong>Kontakt</strong>
-                  <a href="mailto"> jmeno@.cz </a>
+                <div class="therapist-info">
+                  <h3>Členství v odborných asociacích</h3>
+                  <ul>
+                    <li>ČAE (Česká asociace ergoterapeutů)</li>
+                    <li>ASI (Asociace senzorické integrace)</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -267,6 +360,7 @@
       </section>
 
       <!-- ZÁVĚREČNÁ SEKCE -->
+
       <section class="therapists-bottom">
         <div class="container therapists-bottom-content">
           <span class="eyebrow">TĚŠÍME SE NA VÁS</span>
@@ -295,18 +389,35 @@
               ></span
             ></a
           >
-          <p>Blah bla.</p>
-          <p>Vnitřní řád (bude btn)</p>
+
+          <p><a href="vnitrni-rad.html">Vnitřní řád</a></p>
+          <div>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
         </div>
         <div>
           <h3>Kde nás najdete</h3>
           <p>
-            <strong>Logopedie a Ergoterapie Pardubice</strong
-            ><br />Adresa<br />530 03 Pardubice
+            <strong>Centrum klinické logopedie a ergoterapie</strong
+            ><br />Bubeníkova 952<br />530 03 Pardubice
           </p>
           <p>
             <a
-              href="https://maps.google.com/?q=Pardubice"
+              href="https://maps.app.goo.gl/NBCkxNVb98JQitpB8"
               target="_blank"
               rel="noopener"
               >Zobrazit na mapě ↗</a
@@ -314,10 +425,10 @@
           </p>
         </div>
         <div>
-          <h3>Kontakt</h3>
-          <p>Kontakt</p>
-          <p>Kontakt</p>
-          <p>Kontakt</p>
+          <h3>Terapeutky</h3>
+          <p><a href="o-nas.html">Mgr. et Mgr. Monika Šandová</a></p>
+          <p><a href="o-nas.html">Mgr. Lenka Trávníčková</a></p>
+          <p><a href="o-nas.html">Bc. Markéta Nývltová</a></p>
           <p class="footer-small">Ordinační hodiny: po předchozí domluvě</p>
         </div>
       </div>
@@ -328,17 +439,24 @@
         </div>
       </div>
     </footer>
+
     <script>
       const toggle = document.querySelector(".menu-toggle");
+
       const nav = document.querySelector(".main-nav");
+
       toggle.addEventListener("click", () => {
         const isOpen = toggle.getAttribute("aria-expanded") === "true";
+
         toggle.setAttribute("aria-expanded", String(!isOpen));
+
         nav.classList.toggle("is-open", !isOpen);
       });
+
       nav.querySelectorAll("a").forEach((link) =>
         link.addEventListener("click", () => {
           toggle.setAttribute("aria-expanded", "false");
+
           nav.classList.remove("is-open");
         }),
       );
